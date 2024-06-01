@@ -1,0 +1,22 @@
+{
+  "name": "express-essentials",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --experimental-json-modules --exec babel-node index.js" 
+  },
+  "author": "Tomas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/node": "^7.24.6",
+    "@babel/preset-env": "^7.24.6"
+  }
+}
